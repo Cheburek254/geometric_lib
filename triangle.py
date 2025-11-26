@@ -1,7 +1,7 @@
 import unittest
 
 
-class RectangleTestCase(unittest.TestCase):
+class TriangleTestCase(unittest.TestCase):
     def test_zero_mul(self):
         res = area(10,0)
         self.assertEqual(res, 0)
