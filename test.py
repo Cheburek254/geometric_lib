@@ -20,7 +20,7 @@ class SquareTestCase(unittest.TestCase):
         res = square.area(10,0)
         self.assertEqual(res, 0)
     def test_square(self):
-        res = square.area(10,10)
+        res = square.area(10)
         self.assertEqual(res, 100)
     def test_perimeter(self):
         res = square.perimeter(10)
