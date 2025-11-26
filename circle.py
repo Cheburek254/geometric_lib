@@ -2,7 +2,7 @@ import math
 import unittest
 
 
-class RectangleTestCase(unittest.TestCase):
+class CircleTestCase(unittest.TestCase):
     def test_zero_mul(self):
         res = area(0)
         self.assertEqual(res, 0)
