@@ -1,4 +1,19 @@
 import math
+import unittest
+
+
+class RectangleTestCase(unittest.TestCase):
+    def test_zero_mul(self):
+        res = area(0)
+        self.assertEqual(res, 0)
+    def test_area(self):
+        res = area(10)
+        self.assertEqual(res, 100*math.pi)
+    def test_perimeter(self):
+        res = perimeter(3)
+        self.assertEqual(res,6*math.pi)
+
+
 
 
 def area(r):
